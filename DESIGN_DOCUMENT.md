@@ -77,7 +77,7 @@ item would be marked with `inactive = true`.
 
 ### `GetBook`
 
-* Retrieves the latest active version of a book from the catalog with a given book id.
+* Retrieves the latest active version of a+ book from the catalog with a given book id.
 * Returns a list of book recommendations related to the book. These are retrieved from the
 `RecommendationService`.
 * Returns book only if the book is currently active (based on the `inactive` field in
