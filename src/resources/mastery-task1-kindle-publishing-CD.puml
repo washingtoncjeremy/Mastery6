@@ -62,6 +62,8 @@ class PublishingStatusItem {
 class BookNotFoundException
 class PublishingStatusNotFoundException
 
+
+
 GetBookActivity -> CatalogDao
 GetBookActivity -> RecommendationsServiceClient
 SubmitBookForPublishingActivity -> PublishingStatusDao
